@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label for="text">
+          Nome
+          <input type="text" id="text" required value="Rafael Lima Guedes" />
+        </label>
+      </div>
+      <div>
+        <label for="email">
+          Email
+          <input type="email" id="email" required />
+        </label>
+      </div>
+      <div>
+        <label>
+          <input type="radio" name="preco" value="100" /> R$ 100,00
+        </label>
+        <label>
+          <input type="radio" name="preco" value="150" /> R$ 150,00
+        </label>
+        <label>
+          <input type="radio" name="preco" value="180" /> R$ 180,00
+        </label>
+      </div>
+      <div>
+        <input type="checkbox" name="variospreco" value="100" /> R$ 100,00
+        <input type="checkbox" name="variospreco" value="150" /> R$ 150,00
+        <input type="checkbox" name="variospreco" value="180" /> R$ 180,00
+      </div>
+      <div>
+        <label>
+          Selecione a cidade <br />
+          <select>
+            <option value="" selected>Selecione uma cidade</option>
+            <option value="pedras de maria da cruz">
+              Pedras de Maria da Cruz
+            </option>
+            <option value="januaria">Januária</option>
+            <option value="lontra">Lontra</option>
+            <option value="sao pedro">São Pedro</option>
+          </select>
+        </label>
+      </div>
+
+      <div>
+        <label>
+          Digite um comentário <br />
+          <textarea> </textarea>
+        </label>
+      </div>
+      <div>
+        <button>Enviar formulário</button>
+      </div>
+    </form>
+  </body>
+</html>

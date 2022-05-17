@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Flex-box</title>
+    <style>
+      .nav0 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      nav ul {
+        font-size: 2.5rem;
+        list-style: none;
+        display: flex;
+
+        align-items: baseline;
+      }
+
+      nav ul li {
+        margin: 0 10px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      nav ul li:nth-of-type(2) {
+        order: 1;
+      }
+
+      nav ul li:nth-of-type(4) {
+        font-size: 3.5rem;
+      }
+
+      nav ul li:nth-of-type(1) {
+        font-size: 3.5rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header class="flex">
+      <nav class="nav0">
+        <img class="brx" src="./assets/Bronzox_logo.png" alt="logo bronzox" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Portifólio</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
