@@ -3,25 +3,9 @@
 /* Components*/
 @import "./buttons.css";
 @import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+@import "./responsive-background.css";
+@import "./bootstrap.css";
+@import "./responsive-elements.css";
 
-/* Reset Css */
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-family: "Source Sans Pro", sans-serif;
-  font-size: 100%;
-  vertical-align: baseline;
-  text-decoration: none;
-}
-.container {
-  width: 1024px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: column;
-}
-.row {
-  display: flex;
-  flex-direction: row;
-}

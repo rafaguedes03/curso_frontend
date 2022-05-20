@@ -1,0 +1,80 @@
+@media (max-width: 1150px) {
+  .container {
+    width: 950px;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    width: 800px;
+  }
+
+  .sobre-web-design figcaption img {
+    width: 600px;
+  }
+  
+}
+@media (max-width: 915px) {
+  body {
+    background-position: left top;
+    background-color: #b1f4ff;
+  }
+  .container {
+    width: 600px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  header nav {
+    margin: 30px 0;
+  }
+
+  .sobre-web-design article {
+    width: 100%;
+  }
+
+  footer .row {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .sobre-web-design figcaption img {
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  
+}
+
+@media (max-width: 665px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 290px;
+
+  }
+
+  header nav {
+    background: #fff;
+    padding: 10px 0 20px 0;
+    width: 100%;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.2);
+    border-radius: 4px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+  }
+
+  header nav ul li {
+    margin: 10px 0;
+  }
+}
+
+
+
